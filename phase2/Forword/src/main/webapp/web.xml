@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>john</servlet-name>
+<servlet-class>Forword</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>john</servlet-name>
+<url-pattern>/call</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>y</servlet-name>
+<servlet-class>Launch</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>y</servlet-name>
+<url-pattern>/call2</url-pattern>
+</servlet-mapping>
+</web-app>
